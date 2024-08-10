@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE INTEREST CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="load">
+    <div class="container">
+        <div class="simple">
+            <h1>SIMPLE INTEREST</h1>
+            <div class="int">
+               <div> <label for="x">princple Amount:</label>
+                <input type="text" name="princple_amount" id="p" placeholder="enter princple Amount" ></div>
+            </div>
+            <div class="int">
+               <div> <label for="x">Rate of Interest:</label>
+                <input type="text" name="rate" id="r" placeholder="enter rate of interest"></div>
+            </div>
+            <div class="int">
+               <div> <label for="x">Number of year:</label>
+                <input type="text" name="princple_amount" id="t" placeholder="enter years/time"></div>
+            </div>
+            <button id="btn" onclick="simple()"> calculate</button>
+            <div id="he"><p > princple Amount: <span id="para"></span> </p>
+                <p>Total Interest: <span id="para1"></span></p>
+                <p>Total Amount: <span id="para2"></span></p>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
